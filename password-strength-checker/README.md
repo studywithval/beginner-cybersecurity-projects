@@ -2,6 +2,8 @@
 
 Scores a password against common strength criteria (length, character variety, repetition, membership in a list of commonly leaked passwords) and estimates its entropy in bits.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

@@ -2,6 +2,8 @@
 
 Captures live network packets with Scapy and prints a one-line summary per packet (protocol, source/destination IP, ports).
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

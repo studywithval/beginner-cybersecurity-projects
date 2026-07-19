@@ -2,6 +2,8 @@
 
 Scores a URL against common phishing red flags: IP-address hosts, URL shorteners, excessive length, `@` tricks, deep subdomains, missing HTTPS, sensitive keywords, and hyphenated lookalike domains.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

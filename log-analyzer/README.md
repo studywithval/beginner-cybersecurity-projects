@@ -2,6 +2,8 @@
 
 Parses an `auth.log`-style file and flags IP addresses with excessive failed SSH login attempts - a classic brute-force detection technique used by tools like `fail2ban` and SIEM correlation rules.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

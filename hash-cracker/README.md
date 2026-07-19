@@ -2,6 +2,8 @@
 
 Cracks a password hash by hashing every word in a wordlist and comparing to the target - the same technique tools like `hashcat` and `John the Ripper` use in dictionary mode.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

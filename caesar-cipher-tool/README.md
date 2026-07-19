@@ -2,6 +2,8 @@
 
 Encrypts, decrypts, and brute-forces the classical Caesar (shift) cipher.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

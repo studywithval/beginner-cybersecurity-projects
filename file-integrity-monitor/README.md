@@ -2,6 +2,8 @@
 
 Saves a SHA-256 baseline of every file in a directory, then detects additions, deletions, and modifications on later runs.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash

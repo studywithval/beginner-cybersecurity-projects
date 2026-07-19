@@ -13,6 +13,7 @@ A collection of small, self-contained security projects for building practical s
 ## Quick navigation
 
 - [Projects](#projects) — hands-on tools with full source code
+- [Screenshots](#screenshots) — see a few of them running
 - [Getting started](#getting-started) — clone and run locally
 - [Legal/ethical note](#legalethical-note) — read before running the network/hash tools
 - [Using this for job applications](#using-this-for-job-applications)
@@ -31,6 +32,22 @@ A collection of small, self-contained security projects for building practical s
 | [packet-sniffer](packet-sniffer/) | Beginner | 2-4h | Packet capture/analysis with Scapy |
 
 Time estimates are rough, assuming you read the code and try the usage examples rather than just running it once.
+
+## Screenshots
+
+**[log-analyzer](log-analyzer/)** catching a brute-force IP in a sample auth log:
+
+![log analyzer demo](log-analyzer/demo.png)
+
+**[phishing-url-detector](phishing-url-detector/)** scoring a suspicious URL:
+
+![phishing detector demo](phishing-url-detector/demo.png)
+
+**[hash-cracker](hash-cracker/)** recovering a password from its hash via dictionary attack:
+
+![hash cracker demo](hash-cracker/demo.png)
+
+Every project folder has its own README with a screenshot and usage examples.
 
 ## Getting started
 

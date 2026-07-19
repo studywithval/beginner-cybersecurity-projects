@@ -2,6 +2,8 @@
 
 A multithreaded TCP connect scanner, the same technique underlying tools like Nmap's `-sT` scan.
 
+![demo](demo.png)
+
 ## Usage
 
 ```bash
