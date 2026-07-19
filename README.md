@@ -1,19 +1,37 @@
+<div align="center">
+
 # Beginner Cybersecurity Projects
+
+![Beginner](https://img.shields.io/badge/level-beginner-brightgreen)
+![Python](https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Projects](https://img.shields.io/badge/projects-8-orange)
 
 A collection of small, self-contained security projects for building practical skills and a portfolio for entry-level security roles (SOC analyst, security engineer, junior pentester, IT security). Each project is a standalone Python script with its own README covering usage and the concepts it demonstrates.
 
+</div>
+
+## Quick navigation
+
+- [Projects](#projects) — hands-on tools with full source code
+- [Getting started](#getting-started) — clone and run locally
+- [Legal/ethical note](#legalethical-note) — read before running the network/hash tools
+- [Using this for job applications](#using-this-for-job-applications)
+
 ## Projects
 
-| Project | Skills demonstrated |
-|---|---|
-| [password-strength-checker](password-strength-checker/) | Input validation, entropy/scoring logic |
-| [port-scanner](port-scanner/) | Sockets, TCP/IP, concurrency |
-| [file-integrity-monitor](file-integrity-monitor/) | Hashing, filesystem monitoring (FIM) |
-| [caesar-cipher-tool](caesar-cipher-tool/) | Classical cryptography, brute forcing |
-| [log-analyzer](log-analyzer/) | Log parsing, brute-force/intrusion detection |
-| [hash-cracker](hash-cracker/) | Password hashing, dictionary attacks |
-| [phishing-url-detector](phishing-url-detector/) | Heuristics, social-engineering awareness |
-| [packet-sniffer](packet-sniffer/) | Packet capture/analysis with Scapy |
+| Project | Level | Time | Skills demonstrated |
+|---|---|---|---|
+| [password-strength-checker](password-strength-checker/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![1--2h](https://img.shields.io/badge/-1--2h-blue) | Input validation, entropy/scoring logic |
+| [caesar-cipher-tool](caesar-cipher-tool/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![1h](https://img.shields.io/badge/-1h-blue) | Classical cryptography, brute forcing |
+| [hash-cracker](hash-cracker/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![1--2h](https://img.shields.io/badge/-1--2h-blue) | Password hashing, dictionary attacks |
+| [port-scanner](port-scanner/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![2--3h](https://img.shields.io/badge/-2--3h-blue) | Sockets, TCP/IP, concurrency |
+| [file-integrity-monitor](file-integrity-monitor/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![2--3h](https://img.shields.io/badge/-2--3h-blue) | Hashing, filesystem monitoring (FIM) |
+| [phishing-url-detector](phishing-url-detector/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![2--3h](https://img.shields.io/badge/-2--3h-blue) | Heuristics, social-engineering awareness |
+| [log-analyzer](log-analyzer/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![2--4h](https://img.shields.io/badge/-2--4h-blue) | Log parsing, brute-force/intrusion detection |
+| [packet-sniffer](packet-sniffer/) | ![beginner](https://img.shields.io/badge/-beginner-brightgreen) | ![2--4h](https://img.shields.io/badge/-2--4h-blue) | Packet capture/analysis with Scapy |
+
+Time estimates are rough, assuming you read the code and try the usage examples rather than just running it once.
 
 ## Getting started
 
