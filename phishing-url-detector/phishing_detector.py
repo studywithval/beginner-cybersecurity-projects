@@ -36,7 +36,7 @@ def analyze_url(url: str) -> dict:
     if "@" in url:
         reasons.append("Contains '@', which can hide the real destination")
 
-    if host.count(".") >= 3:
+    if not IP_RE.match(host) and host.count(".") >= 3:
         reasons.append("Unusually many subdomains")
 
     if parsed.scheme != "https":
